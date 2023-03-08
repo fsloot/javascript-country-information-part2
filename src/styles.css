@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.world-globe {
+    width: 40%;
+}
+
+.country-input-and-output {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.text-border {
+    /*margin-top: 50px;*/
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 1px #899CA0;
+}
+
+.flag-and-countryname {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.flag {
+    width : 50px;
+    height : 30px;
+}
+
+.input-box {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    margin-left: -5px;
+    padding: 5px;
+    background-color: limegreen;
+    border-radius: 0 5px 5px 0;
+}
